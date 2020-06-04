@@ -19,8 +19,6 @@ body {
 section {
   text-align: center;
   color: #333;
-  padding: 60px 30px;
-  margin-top: 60px;
   background-color: rgba(255,255,255, .8);
   border-radius: 10px;
   box-shadow: 2px 2px 50px rgb(67, 73, 69);
@@ -72,7 +70,6 @@ body {
 
 .container {
   color: #333;
-  margin: 60px auto;
   padding: 0.5rem;
   text-align: center;
 }
@@ -111,6 +108,12 @@ h2 {
   .container {
     width: 100%;
     border-radius: 0px;
+    margin: 10px auto;
+  }
+
+  section {
+    padding: 30px;
+    margin-bottom: 60px;
   }
 }
 
@@ -119,6 +122,12 @@ h2 {
   .container {
     width: 900px;
     border-radius: 15px;
+    margin: 60px auto;
+  }
+
+  section {
+    padding: 60px 60px;
+    margin-bottom: 60px;
   }
   
   h1 {
