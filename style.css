@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+
+body {
+  background-image: url("img/stars.jpg");
+  background-size: cover;
+  background-position: bottom;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 60px;
+  font-weight: normal;
+}
+
+h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 40px;
+  font-weight: normal;
+}
+
+.container {
+  padding: 50px 50px 0;
+}
+
+section {
+  text-align: center;
+  color: #fff;
+  padding: 50px;
+  border-radius: 25px;
+}
+
+.welcome {
+  text-transform: uppercase;
+}
+
+.i {
+  font-style: italic;
+}
+
+
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+li {
+  display: inline-block;
+  font-size: 1.5em;
+  list-style-type: none;
+  padding: 1em;
+  text-transform: uppercase;
+}
+
+li span {
+  display: block;
+  font-size: 4.5rem;
+}
+
+/* general styling */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: -apple-system, 
+    BlinkMacSystemFont, 
+    "Segoe UI", 
+    Roboto, 
+    Oxygen-Sans, 
+    Ubuntu, 
+    Cantarell, 
+    "Helvetica Neue", 
+    sans-serif;
+}
+
+.container {
+  color: #333;
+  margin: 100px auto;
+  padding: 0.5rem;
+  text-align: center;
+}
