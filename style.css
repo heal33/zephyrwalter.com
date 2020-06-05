@@ -50,6 +50,10 @@ nav {
   font-style: italic;
 }
 
+.row {
+  margin-bottom: 30px;
+}
+
 footer {
   background: #14332E;
   padding: 15px 0;
@@ -59,6 +63,10 @@ footer {
 
 .content {
   margin: 60px 0;
+}
+
+.content h1 {
+  margin-bottom: 30px;
 }
 
 
