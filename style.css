@@ -1,65 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
-body {
-  background-image: url("img/beach.jpeg");
-  background-size: cover;
-  font-family: 'Open Sans', sans-serif;
-  background-position: center;
-
-}
 
 
 
-.container {
-
-}
-
-section {
-  text-align: center;
-  color: #333;
-  background-color: rgba(255,255,255, .8);
-  border-radius: 10px;
-  box-shadow: 2px 2px 50px rgb(67, 73, 69);
-  border: 1px solid #555;
-
-}
-
-.welcome {
-  text-transform: uppercase;
-}
-
-.i {
-  font-style: italic;
-}
-
-
-
-
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-
-li {
-  display: inline-block;
-  font-size: 1.5em;
-  list-style-type: none;
-  padding: 1em;
-  text-transform: uppercase;
-}
-
-li span {
-  display: block;
-  font-size: 4.5rem;
-}
-
-/* general styling */
 html, body {
   margin: 0;
+  font-family: 'Open Sans', sans-serif;
 }
 
 body {
@@ -68,84 +15,84 @@ body {
   align-items: center;
 }
 
-.container {
-  color: #333;
-  padding: 0.5rem;
+.jumbotron {
+  background-image:url("img/beach-resized.png");
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+  border-radius: 0;
+  margin-bottom: 0;
+  padding: 6rem 2rem;
+}
+
+.jumbotron h1 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+}
+
+nav {
+  border-bottom: 6px solid #1D3830;
+}
+
+.navbar-brand {
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+}
+
+.my-4 {
+  border: 2px solid #fff;
+  margin-top: 3rem !important;
+  margin-bottom: 3rem !important;
+}
+
+.i {
+  font-style: italic;
+}
+
+footer {
+  background: #14332E;
+  padding: 15px 0;
+  text-align: center;
+  color: #fff;
+}
+
+.content {
+  margin: 60px 0;
+}
+
+
+/* general styling */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+.countdown {
   text-align: center;
 }
 
-h1 {
-  font-family: 'Playfair Display', serif;
-  font-weight: normal;
+.countdown li {
+  display: inline-block;
+  font-size: 1.5em;
+  list-style-type: none;
+  padding: 1em;
+  text-transform: uppercase;
 }
 
-h2 {
-  font-family: 'Playfair Display', serif;
-  font-weight: normal;
+.countdown li span {
+  display: block;
+  font-size: 4.5rem;
 }
-
-.title {
-
-}
-
 
 @media only screen and (max-width: 600px) {
 
-  h1 {
-    font-size: 40px;
-  }
-  
-  h2 {
-    font-size: 20px;
-    font-weight: normal;
-  }
-
-  .title {
-    font-size: 20px;
-    margin-top: 20px;
-  }
-
-  .container {
-    width: 100%;
-    border-radius: 0px;
-    margin: 10px auto;
-  }
-
-  section {
-    padding: 30px;
-    margin-bottom: 60px;
-  }
 }
 
 @media only screen and (min-width: 601px) {
 
-  .container {
-    width: 900px;
-    border-radius: 15px;
-    margin: 60px auto;
-  }
 
-  section {
-    padding: 60px 60px;
-    margin-bottom: 60px;
-  }
-  
-  h1 {
-    font-size: 55px;
-
-  }
-  
-  h2 {
-    font-size: 40px;
-  }
-
-  .title {
-    font-size: 30px;
-    margin-top: 20px;
-  }
-
-  .dd {
-    font-size: 30px;
-    margin-top: 30px;
-  }
 }
